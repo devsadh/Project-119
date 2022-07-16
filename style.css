@@ -1,0 +1,61 @@
+header{
+    text-align: right;
+    height: fit-content;
+}
+
+#points,#timer{
+    margin-left: 1000px;
+}
+
+body{
+    font-family: 'Pacifico',cursive;
+    font-size: large;
+    background-color: rgb(65, 196, 152);
+}
+
+#head{
+    font-size: x-large;
+}
+
+h1
+{
+  
+  color:rgb(11, 11, 12);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:200px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
+
+
+p, span
+  {
+    
+   
+    font-size:25px;
+    
+  }
+
+  button{
+    margin-top:  -50px;
+  }
